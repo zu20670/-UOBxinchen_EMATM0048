@@ -1,9 +1,15 @@
 # -UOBxinchen_EMATM0048
 --------------------------------------------------------------------------------------
 This is my coursework on the SPDA(EMATM0048) in University of Bristol MSc in Data Science.
-The three folders are the contents of the three parts of my homework
-And then I'm going to show you how to run the code separately.But the teacher advised me 
-not to use Tkinter, so I reimplemented the program, and both methods did everything required. 
+The three folders are the contents of the three parts of my homework.
+And then I'm going to show you how to run the code separately.
+
+--------------------------------------------------------------------------------------
+SDPA_PART1
+Brief introduction:
+This part is software development. I started using Tkinter Library to design the main page. 
+But the teacher advised me not to use Tkinter, so I reimplemented the program, and both methods 
+did everything required. 
 Here I submit two of my implementation methods, which can be viewed by changing the methods 
 in the main function, and the car class is common to both methods.
 In addition, in the system without GUI, I changed all the information entered by the user to numbers 
@@ -15,15 +21,11 @@ but if the wrong ID is entered, the car will not be returned.
 In the GUI system, users need to enter user and VIP information in the upper left menu bar before 
 entering the interface of car rental and car exchange. Since the total number of vehicles is 10, 
 I preset 10 users, and each user can only return the car before renting the car.
-
---------------------------------------------------------------------------------------
-SDPA_PART1
-Brief introduction:
-This part is software development. I started using Tkinter Library to design the main page
 Operation mode:
 File and Introduction:
 car_rental.py--Vehicle class and rental record class
-carRental_test.py--Unit testing（Because of the user input error value determination I implemented in the main function, only the function that calculates the cost is tested here）
+carRental_test.py--Unit testing（Because of the user input error value determination I implemented in 
+the main function, only the function that calculates the cost is tested here）
 main.py--Main function, default is not using GUI programming, remove GUI comments to run methods using GUI
 mainterminal.py--Not using the GUI to implement
 mainwindow.py--Using GUI to implement
